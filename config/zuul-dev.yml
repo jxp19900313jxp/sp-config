@@ -34,3 +34,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
+spring:
+  rabbitmq:
+    host: 192.168.163.101
+    port: 5672
+    username: admin
+    password: admin
